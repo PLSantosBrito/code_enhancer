@@ -17,8 +17,8 @@ const (
 )
 
 const (
-	clientID     = "Ov23lim2s3OwlqW3ydmn"
-	clientSecret = "0ae2914a5ef8aeea460ea2b3eaf06fc24f400518"
+	clientID     = ""
+	clientSecret = ""
 )
 
 type AuthHandler struct{}

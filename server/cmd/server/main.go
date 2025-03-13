@@ -12,8 +12,7 @@ func main() {
 
 	auth := r.Group("/auth")
 	{
-		auth.POST("/login", authHandler.Login)
-		auth.POST("/register", authHandler.Register)
+		auth.GET("/github/callback", authHandler.LoginCallback)
 	}
 
 	r.Run(":8080")

@@ -2,10 +2,10 @@ BINARY_NAME=server
 MAIN_SERVER_FILE=cmd/server/main.go
 
 run-server:
-	@cd server && go run $(MAIN_MAIN_SERVER_FILEFILE)
+	@cd server && go run $(MAIN_SERVER_FILE)
 
 build-server:
-	@cd server && go build -o $(BINARY_NAME) $(MAIN_FILE)
+	@cd server && go build -o $(BINARY_NAME) $(MAIN_SERVER_FILE)
 
 install-front:
 	@cd Front/github_app && npm install

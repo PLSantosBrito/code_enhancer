@@ -8,17 +8,17 @@ import PageLoged from './pages/PageLoged.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
+    element: <App />
   },
   {
-    path: '/second',
+    path: '/home',
     element: <PageLoged/>
   }
 ]);
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  
     <RouterProvider router={router}/>
-  </StrictMode>,
+  
 )
